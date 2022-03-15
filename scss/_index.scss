@@ -1,0 +1,118 @@
+
+
+/* Carousel */
+
+.carousel-inner{
+
+    & .titulo__slide{
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        font-weight: bold;
+        background-image: linear-gradient(160deg, $segundoColor 0%, $cuartoColor 100%);
+        color: $quintoColor;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    & .parrafo__slide{
+        display: flex;
+        font-weight: bold;
+        font-size: 20px;
+        justify-content: center;
+        background-color: $quintoColor;
+        color: $segundoColor;
+    }
+    
+}
+
+ /* Propiedades destacadas / Alquiler /Venta */
+
+.titulo__desta{
+    text-align: center;
+    color: $segundoColor;
+    margin-top: 3rem;
+    font-weight: bold;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.row{
+    margin-top: 3rem;
+    padding-left: 5rem;
+
+    & .card-img-top{
+        transition: all 1s;    
+    }
+
+    .card-img-top:hover{
+        width: 300px;
+    }
+
+    & .card__title{
+        font-weight: bold;
+        color: $segundoColor;
+        font-size: 25px;
+        text-align: center;
+    }
+    
+    & .btn-grad{
+        background-image: linear-gradient(to right, $tercerColor 0%, $cuartoColor  51%, $tercerColor  100%);
+        margin: 10px;   
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: $primerColor;            
+        box-shadow: 0 0 20px $primerColor;
+        border-radius: 2px;
+        display: block;
+    }
+    
+    & .btn-grad:hover {
+       background-position: right center;
+       color: $primerColor;
+       text-decoration: none;
+     }
+        
+    &  .card{
+        margin-bottom: 0%;
+        margin-top: 0%;
+        border-radius: 20px;
+    }
+    
+       
+    & .card__text{
+        font-weight: bold;
+        text-align: center;
+        font-size: 17px;
+        color: $tercerColor;
+     }
+
+}
+
+
+/* Contactanos Index */
+
+
+.d-flex{
+    width: 100%; 
+    
+    & #textoForm{
+        width: 300px;
+    }
+    
+    
+    & .form__label{
+        font-weight: bold;
+        color: $segundoColor;
+        font-size: 15px;   
+    }
+    
+    & .boton__enviar{
+        font-size: 15px;
+        background-image: linear-gradient(160deg, $segundoColor 0%, $cuartoColor 100%);
+        color: $primerColor;
+    }
+   
+}
+
